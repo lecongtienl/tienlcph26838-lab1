@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.7s;
+}
+
+html {
+    font-family: 'Anton', sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    width: 1440px;
+    min-height: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu-img {
+    height: 50px;
+    width: 73.61111450195312px;
+    margin-left: 16px;
+    margin-right: 537.39px;
+    margin-top: 18px;
+    border-radius: 0px;
+}
+
+.header__menu-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__menu-list {
+    display: flex;
+    margin-top: 28px;
+    margin-right: 16px;
+}
+
+.header__menu-item {
+    list-style: none;
+    margin-left: 32px;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+.header__menu-item:hover {
+    transform: scale(1.1);
+}
+
+.header__menu-link:hover {
+    color: #FD4756;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.11111rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* -------------------------------------- */
+
+.header__menu-mobile {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.header__menu-mobile #menu__mobile-list {
+    display: none;
+}
+
+.header__menu-mobile a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.header__menu-mobile a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header__menu-mobile a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 54px;
+    background-color: #eb4511;
+    background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+    color: white;
+}
+
+
+/* ---------------------------------------- */
+
+.banner {
+    width: 100%;
+    height: 600px;
+    margin-top: 28px;
+}
+
+.banner__img {
+    width: 100%;
+    height: 100%;
+}
+
+.title__news {
+    font-size: 2.666666rem;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 64px 0 32px 16px;
+}
+
+.title__news:hover {
+    color: #FD4756;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 16px;
+}
+
+.content__news {
+    overflow: hidden;
+}
+
+.content__news img {
+    height: 252px;
+    width: 448px;
+}
+
+.content__news img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.content__news-info {
+    max-width: 448px;
+}
+
+.content__news-subtitle {
+    margin: 16px 0;
+    font-size: 0.888888rem;
+    color: #FD4756;
+}
+
+.content__news-title {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.11111rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.content__news-title:hover {
+    text-decoration: underline;
+    color: #FD4756;
+}
+
+.sub__banner {
+    margin-top: 64px;
+    width: 100%;
+    height: 600px;
+}
+
+.sub__banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner:hover,
+.sub__banner:hover {
+    opacity: 0.9;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin-top: 16px;
+    line-height: 100px;
+    background-color: #000;
+}
+
+.footer__info {
+    color: #fff;
+    font-size: 1.11111rem;
+    font-weight: 400;
+    margin-left: 16px;
+}
+
+.footer__btn-sub {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #FD4756;
+    width: 127px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 25px;
+    margin-right: 16px;
+    border-radius: 5px;
+    transition: all 0.7s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer__btn-sub:hover {
+    transform: scale(1.1);
+    background-color: #6b5dba;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

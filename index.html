@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dongle:wght@300;400;700&family=Inconsolata:wght@300;400&family=Luxurious+Roman&family=Montserrat:wght@200&family=Neonderthaw&family=Nunito:wght@200;300&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto:wght@300;400&family=Rubik&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <title>TIENLCPH26838 - LAB1</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header__menu">
+                <div class="header__menu-img ">
+                    <a href="index.html" class="header__logo-link"><img src="img/logo-menu.png" alt="logo"></a>
+                </div>
+                <ul class="header__menu-list ">
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Thông tin trò chơi</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Truyền thông</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Tin tức</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Bảng xếp hạng</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Hỗ trợ</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Thể thao điện tử</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header__menu-mobile">
+                <a href="index.html" class="active ">
+
+                </a>
+                <ul id="menu__mobile-list">
+                    <li class="menu__mobile-item">
+                        <a href="#" class="menu__mobile-link">Thông tin trò chơi</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#" class="menu__mobile-link">Truyền thông</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#" class="menu__mobile-link">Tin tức</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#" class="menu__mobile-link">Bảng xếp hạng</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#" class="menu__mobile-link">Hỗ trợ</a>
+                    </li>
+                    <li class="menu__mobile-item">
+                        <a href="#" class="menu__mobile-link">Thể thao điện tử</a>
+                    </li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="banner">
+                <img class="banner__img" src="img/banner.jpg" alt="banner">
+            </div>
+        </header>
+        <main>
+            <h1 class="title__news">TIN TỨC MỚI NHẤT</h1>
+
+            <div class="news">
+                <div class="content__news">
+                    <a href="#"><img src="img/news-1.jpg" alt=""></a>
+                    <div class="content__news-info">
+                        <p class="content__news-subtitle">Cập nhật trò chơi</p>
+                        <a href="#" class="content__news-title">VALORANT - Thông Tin Bản Cập Nhật 4.03</a>
+                    </div>
+                </div>
+
+                <div class="content__news">
+                    <a href="#"><img src="img/news-2.jpg" alt=""></a>
+                    <div class="content__news-info">
+                        <p class="content__news-subtitle">Đội ngũ phát triển</p>
+                        <a href="#" class="content__news-title">Loạt Bài Viết Về Trạng Thái Hệ Thống Trong VALORANT - Hành Vi Tiêu Cực Trong Chat & Đàm Thoại</a>
+                    </div>
+                </div>
+
+                <div class="content__news">
+                    <a href="#"><img src="img/news-3.jpg" alt=""></a>
+                    <div class="content__news-info">
+                        <p class="content__news-subtitle">Đội ngũ phát triển</p>
+                        <a href="#" class="content__news-title">Hiện Trạng Về Các Đặc Vụ - Yoru Phần 2</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub__banner">
+                <img src="img/sub-banner.jpg" alt="" class="sub__banner-img">
+            </div>
+        </main>
+        <footer>
+            <h1 class="footer__info">© 2021 All Rights Reserved</h1>
+            <a href="#" class="footer__btn-sub">Đăng ký ngay</a>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu__mobile-list");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
